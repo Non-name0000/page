@@ -12,13 +12,15 @@ class Nibun{
   let C=document.querySelector('#C');
   let EPS=document.querySelector('#EPS');
   /*未完成部分*/
-  while()
+  while(function(a)-function<EPS){
   if(function(a)*function(c)<0){
     b=c;
   }else if(function(b)*function(c)<0){
   　a=c;
 　}
 }
+}
+  
   
 
   
