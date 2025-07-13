@@ -5,7 +5,31 @@
    <title>二分法・ニュートン法シミュレータ</title>
    <link rel="" href="">
  </head>
+
  <body>
-   <div id="button">
+  <p>計算方法</p>
+  <div id="表記">
+   <div id="ボタン">
     <div>
-     <button type="button">
+     <button type="button" id="二分法" class="normal">二分法</button>
+     <button type="button" id="ニュートン法" class="normal">ニュートン法</button>
+    </div>
+    <p>許容誤差</p>
+    <div>
+     <button type="button" id="1" class="size">0.001</button>
+     <button type="button" id="2" class="size">0.00001</button>
+     <button type="button" id="3" class="size">0.0000001</button>
+     <button type="button" id="4" class="size">0.000000001</button>
+    </div>
+    <p>元の式=　<input type="text" name="三次">x^3+<input type="text" name="二次">x^2+<input type="text" name="一次">x+<input type="text" name="x以外の数"></p>
+    <p>各点の初期値</p><br>
+    <div>
+    <p>点aのx座標の初期値=<input type="range" name="startpoint1" min="-10" max="10"></p>
+    <p>点bのx座標の初期値=<input type="range" name="startpoint1" min="-10" max="10"></p>
+    <p>点cのx座標=</p>
+    </div>
+    <button type="button" id="実行" class="normal">実行</button>
+   </div>
+  </div>
+ </body>
+</html>
